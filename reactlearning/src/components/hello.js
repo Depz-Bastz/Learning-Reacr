@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Greeting = () => {
-    return <p2>I am currently reading in Western Regional Campus</p2>
+const Greeting = props => {
+    console.log(props)
+    return <p2>I am currently reading in {props.name}</p2>
 }
 
 export default Greeting;
