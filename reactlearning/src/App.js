@@ -1,13 +1,16 @@
 import './App.css';
-import Greeting from './components/hello';
-import Welcome from './components/welcome';
-import Hello from './components/Greet';
+// import Greeting from './components/hello';
+// import Welcome from './components/welcome';
+// import Hello from './components/Greet';
+import Message from './components/message';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Welcome name="DARU.LIFE" />
+        <Message />
+        
+        {/* <Welcome name="DARU.LIFE" />
         <Hello name="Deepak Bastola" work="Student" >
           <input placeholder="Just trying options in props" />  
         </Hello>
@@ -15,7 +18,7 @@ function App() {
         <Hello name="Bimal Tamang" work="Banker" > 
           <p>This is a children props.</p>
         </Hello>
-        <Greeting name="PN campus" />
+        <Greeting name="PN campus" /> */}
       </header>
     </div>
   );
