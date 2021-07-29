@@ -1,24 +1,26 @@
 import './App.css';
-// import Greeting from './components/hello';
-// import Welcome from './components/welcome';
-// import Hello from './components/Greet';
+import Greeting from './components/hello';
+import Welcome from './components/welcome';
+import Hello from './components/Greet';
 import Message from './components/message';
+import Counter from './components/counter';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Message />
+        <Counter />
         
-        {/* <Welcome name="DARU.LIFE" />
-        <Hello name="Deepak Bastola" work="Student" >
+        <Message />      
+         <Welcome name="DARU.LIFE" />
+        <Hello naame="Deepak Bastola" work="Student" >
           <input placeholder="Just trying options in props" />  
         </Hello>
         <Greeting name="Western Regional Campus" />
-        <Hello name="Bimal Tamang" work="Banker" > 
+        <Hello naame="Bimal Tamang" work="Banker" > 
           <p>This is a children props.</p>
         </Hello>
-        <Greeting name="PN campus" /> */}
+        <Greeting name="PN campus" />
       </header>
     </div>
   );

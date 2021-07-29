@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 class Welcome extends Component {
     render () {
-        return <h1>Welcome to my {this.props.name}.</h1>
+        const {naame} = this.props
+        return <h1>Welcome to my {naame}.</h1>
     }
 }
 export default Welcome; 

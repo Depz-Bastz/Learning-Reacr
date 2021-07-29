@@ -1,12 +1,18 @@
 import React from 'react';
 
+// const Hello = ({naame, work}) => {
+//     return (
+//         <div>
+//             <h1>My name is {naame} and I work as {work}.</h1>
+//             </div>
+//     )
+// }
 const Hello = props => {
-    console.log(props)
+    const {naame,work} = props
     return (
         <div>
-            <h1>My name is {props.name} and works as {props.work}.</h1>
-            <p1>{props.children}</p1>
-        </div>
+            <h1>My name is {naame} and I work as {work}.</h1>
+            </div>
     )
 }
 export default Hello;
