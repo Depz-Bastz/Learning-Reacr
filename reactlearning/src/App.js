@@ -1,18 +1,20 @@
 import './App.css';
-import Greeting from './components/hello';
-import Welcome from './components/welcome';
-import Hello from './components/Greet';
-import Message from './components/message';
-import Counter from './components/counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
+// import Greeting from './components/hello';
+// import Welcome from './components/welcome';
+// import Hello from './components/Greet';
+// import Message from './components/message';
+// import Counter from './components/counter';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+import BindEvent from './components/BindEvent';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <FunctionClick />
-        <ClassClick />
+        {/* <FunctionClick />
+        <ClassClick /> */}
+        <BindEvent />
         {/* <Counter />
         
         <Message />      
