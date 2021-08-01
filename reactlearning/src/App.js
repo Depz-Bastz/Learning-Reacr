@@ -4,15 +4,19 @@ import Welcome from './components/welcome';
 import Hello from './components/Greet';
 import Message from './components/message';
 import Counter from './components/counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Counter />
+        <FunctionClick />
+        <ClassClick />
+        {/* <Counter />
         
         <Message />      
-         <Welcome name="DARU.LIFE" />
+         <Welcome naame="DARU.LIFE" />
         <Hello naame="Deepak Bastola" work="Student" >
           <input placeholder="Just trying options in props" />  
         </Hello>
@@ -20,7 +24,7 @@ function App() {
         <Hello naame="Bimal Tamang" work="Banker" > 
           <p>This is a children props.</p>
         </Hello>
-        <Greeting name="PN campus" />
+        <Greeting name="PN campus" /> */}
       </header>
     </div>
   );
