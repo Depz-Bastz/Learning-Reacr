@@ -6,11 +6,15 @@ class BindEvent extends Component {
         this.state = {
             message: 'Hello'
         }
-        this.clickhandler=this.clickhandler.bind(this)
+        // this.clickhandler=this.clickhandler.bind(this)
     }
-    clickhandler(){
-        this.setState ({
-            message: 'Goodbye'
+    // clickhandler(){
+    //     this.setState ({
+    //         message: 'Goodbye'
+    //     })
+    clickhandler = () => {
+        this.setState({
+            message: 'goodbye'
         })
     }
     render() {

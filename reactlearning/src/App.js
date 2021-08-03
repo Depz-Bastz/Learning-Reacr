@@ -1,4 +1,6 @@
 import './App.css';
+import ParentComponent from './components/ParentComponent';
+import Usergreeting from './components/Usergreeting';
 // import Greeting from './components/hello';
 // import Welcome from './components/welcome';
 // import Hello from './components/Greet';
@@ -6,25 +8,27 @@ import './App.css';
 // import Counter from './components/counter';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
-import BindEvent from './components/BindEvent';
+// import BindEvent from './components/BindEvent';
+
 
 function App() {
   return (
     <div className="App">
       <header>
+      <ParentComponent />
         {/* <FunctionClick />
-        <ClassClick /> */}
+        <ClassClick />
         <BindEvent />
-        {/* <Counter />
+        <Counter />
         
         <Message />      
-         <Welcome naame="DARU.LIFE" />
+        <Welcome naame="DARU.LIFE" />
         <Hello naame="Deepak Bastola" work="Student" >
-          <input placeholder="Just trying options in props" />  
+        <input placeholder="Just trying options in props" />  
         </Hello>
         <Greeting name="Western Regional Campus" />
         <Hello naame="Bimal Tamang" work="Banker" > 
-          <p>This is a children props.</p>
+        <p>This is a children props.</p>
         </Hello>
         <Greeting name="PN campus" /> */}
       </header>
