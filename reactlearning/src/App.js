@@ -1,6 +1,9 @@
 import './App.css';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
 import Usergreeting from './components/Usergreeting';
+import UserGreeting1 from './components/UserGreeting1';
+import Ternarycondition from './components/Ternarycondition';
+import Shortcircuitoperator from './components/Shortcircuitoperator';
 // import Greeting from './components/hello';
 // import Welcome from './components/welcome';
 // import Hello from './components/Greet';
@@ -15,8 +18,14 @@ function App() {
   return (
     <div className="App">
       <header>
-      <ParentComponent />
-        {/* <FunctionClick />
+      
+      <Usergreeting />
+      <UserGreeting1 />
+      <Ternarycondition />
+      <Shortcircuitoperator />
+        {/* 
+        <ParentComponent />
+        <FunctionClick />
         <ClassClick />
         <BindEvent />
         <Counter />
