@@ -1,9 +1,9 @@
 import './App.css';
 // import ParentComponent from './components/ParentComponent';
-import Usergreeting from './components/Usergreeting';
-import UserGreeting1 from './components/UserGreeting1';
-import Ternarycondition from './components/Ternarycondition';
-import Shortcircuitoperator from './components/Shortcircuitoperator';
+// import Usergreeting from './components/Usergreeting';
+// import UserGreeting1 from './components/UserGreeting1';
+// import Ternarycondition from './components/Ternarycondition';
+// import Shortcircuitoperator from './components/Shortcircuitoperator';
 // import Greeting from './components/hello';
 // import Welcome from './components/welcome';
 // import Hello from './components/Greet';
@@ -12,18 +12,20 @@ import Shortcircuitoperator from './components/Shortcircuitoperator';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import BindEvent from './components/BindEvent';
+import Namelist from './components/Namelist';
 
 
 function App() {
   return (
     <div className="App">
       <header>
-      
+      <Namelist />
+      {/* 
       <Usergreeting />
       <UserGreeting1 />
       <Ternarycondition />
       <Shortcircuitoperator />
-        {/* 
+        
         <ParentComponent />
         <FunctionClick />
         <ClassClick />
