@@ -22,7 +22,7 @@ function Namelist() {
             skill: 'Autocad'
         }
     ]
-    const namelist = persons.map(person => <Person person={person} />)
+    const namelist = persons.map(person => <Person key={person.id} person={person} />)
     return (
         <div>
             {namelist}
