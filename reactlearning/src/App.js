@@ -12,15 +12,24 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import BindEvent from './components/BindEvent';
-import Namelist from './components/Namelist';
-
+// import Namelist from './components/Namelist';
+import Stylesheets from './components/Stylesheets';
+import Inline from './components/Inline';
+import './appstyles.css';
+import styles from './appStyles.modules.css';
 
 function App() {
   return (
     <div className="App">
       <header>
-      <Namelist />
+      
+      <Inline />
+      <Stylesheets primary={true} />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      
       {/* 
+      <Namelist />
       <Usergreeting />
       <UserGreeting1 />
       <Ternarycondition />

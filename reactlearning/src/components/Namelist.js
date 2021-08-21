@@ -1,5 +1,6 @@
 import React from 'react'
-import Person from './Person'
+import './mystyles.css'
+
 
 function Namelist() {
     const persons = [
@@ -22,7 +23,7 @@ function Namelist() {
             skill: 'Autocad'
         }
     ]
-    const namelist = persons.map(person => <Person key={person.id} person={person} />)
+    const namelist = persons.map((person, index) => <h2 className = 'secondary' key = {index}>ID = {index} : Name = {person.name} : age = {person.age} : skill ={person.skill}</h2>)
     return (
         <div>
             {namelist}
