@@ -13,22 +13,27 @@ import './App.css';
 // import ClassClick from './components/ClassClick';
 // import BindEvent from './components/BindEvent';
 // import Namelist from './components/Namelist';
-import Stylesheets from './components/Stylesheets';
-import Inline from './components/Inline';
-import './appstyles.css';
-import styles from './appStyles.modules.css';
+// import Stylesheets from './components/Stylesheets';
+// import Inline from './components/Inline';
+// import './appstyles.css';
+// import styles from './appStyles.modules.css';
+// import Form from './components/Form';
+import Lifefcyclea from './components/Lifefcyclea';
 
 function App() {
   return (
     <div className="App">
       <header>
+      <Lifefcyclea />
       
-      <Inline />
-      <Stylesheets primary={true} />
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
       
       {/* 
+      <Form />
+      <Inline />
+      <Stylesheets primary={true} />
+      
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
       <Namelist />
       <Usergreeting />
       <UserGreeting1 />
