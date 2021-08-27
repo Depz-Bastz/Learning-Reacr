@@ -18,16 +18,21 @@ import './App.css';
 // import './appstyles.css';
 // import styles from './appStyles.modules.css';
 // import Form from './components/Form';
-import Lifefcyclea from './components/Lifefcyclea';
+// import Lifefcyclea from './components/Lifefcyclea';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
       <header>
-      <Lifefcyclea />
+      
+      <FragmentDemo />
+      <Table />
       
       
       {/* 
+      <Lifefcyclea />
       <Form />
       <Inline />
       <Stylesheets primary={true} />
